@@ -17,7 +17,9 @@ dependencies:
   nsd_android: ^1.2.2
   nsd_ios: ^1.0.3
   nsd_macos: ^1.0.3
-  nsd_platform_interface: ^1.6.0
+  nsd_platform_interface:
+    path: ../nsd_platform_interface
+  # nsd_platform_interface: ^1.6.0
   nsd_windows: ^2.0.1
 
 #  # development
@@ -29,8 +31,6 @@ dependencies:
 #    path: ../nsd_macos
 #  nsd_windows:
 #    path: ../nsd_windows
-#  nsd_platform_interface:
-#    path: ../nsd_platform_interface
 
 dev_dependencies:
   flutter_lints: ^2.0.1
